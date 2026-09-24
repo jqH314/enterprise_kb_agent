@@ -1,0 +1,27 @@
+# 密钥（绝对不能传到 GitHub）
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 向量库数据（云端会自动重建，不传）
+data/chroma_db/
+
+# 沙箱工作目录（运行时产生的临时文件）
+workspace/
+
+# HuggingFace 模型缓存
+*.cache/
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit 本地配置（含可能的密钥）
+.streamlit/secrets.toml

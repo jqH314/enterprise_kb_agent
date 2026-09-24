@@ -1,0 +1,18 @@
+# 核心
+openai>=1.30.0
+python-dotenv>=1.0.0
+numpy>=1.26.0
+
+# 本地 Embedding / Rerank（首次运行会自动下载模型）
+# Streamlit Cloud 上用 CPU 版即可
+torch>=2.2.0
+sentence-transformers>=3.0.0
+rank_bm25>=0.2.2
+
+# 多格式文档解析
+pypdf>=4.0.0
+python-docx>=1.1.0
+openpyxl>=3.1.0
+
+# Web 界面
+streamlit>=1.36.0
